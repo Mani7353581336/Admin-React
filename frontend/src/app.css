@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    margin: 0;
+    
+}
+
+
+/* when we link its color changes with underline, so to remove that usinmg color none */
+.link{
+    text-decoration: none;
+    color: inherit;
+}

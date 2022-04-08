@@ -1,0 +1,117 @@
+.widgetLg{
+    flex: 2;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15); 
+box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+padding: 20px;
+margin: 20px;
+}
+.widgetLgTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetLgTable{
+    width: 100%;
+    height: 100%;
+    border-spacing: 20px;
+    
+    
+}
+.widgetLgTh{
+    text-align: left;
+    
+    
+}
+.WidgetLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    
+    
+}
+.widgetLgImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.widgetLgDate, .widgetLgAmount{
+    font-weight: 300;
+
+}
+.widgetLgButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+.widgetLgButton.Approved{
+    background-color: lawngreen;
+    color: darkgreen;
+}
+.widgetLgButton.Declined{
+    background-color: lightpink;
+    color: red;
+}
+.widgetLgButton.Pendding{
+    background-color: rgb(233, 229, 20);
+    color: blue;
+}
+
+/* .widgetLg{
+    flex: 2;
+    box-shadow: 5px 10px #888888;
+    padding: 20px;
+
+}
+
+.widgetLgTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLgTh{
+    text-align: left;
+}
+
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.widgetLgImg{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgetLgDate,.widgetLgAmount{
+font: weight 500p;
+color: rgb(41, 65, 65);
+}
+
+.widgetLgButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.widgetLgButton.Approved{
+    background-color: rgb(102, 152, 228);
+    color: black;
+}
+
+.widgetLgButton.Declined{
+    background-color: rgb(214, 226, 133);
+}
+
+.widgetLgButton.Pending{
+    background-color: rgb(240, 101, 77);
+} */

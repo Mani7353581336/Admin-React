@@ -1,0 +1,31 @@
+.newProduct{
+    flex: 4;
+}
+
+.newProductForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productFormSingle{
+    display: flex;
+    flex-direction: column;
+}
+
+.productFormSingle>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.productFormSingle>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+
+.productFormSingle>select{
+    margin-bottom: 10px;
+    color: gray;
+}
